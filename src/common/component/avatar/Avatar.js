@@ -4,7 +4,7 @@ function Avatar(props) {
   return (
     <div>
       <Link to={props.link}>
-        {props.size == "small" && (
+        {props.size === "small" && (
           <img
             style={{
               borderRadius: "50%",
@@ -17,7 +17,7 @@ function Avatar(props) {
             src={props.img}
           />
         )}
-        {props.size == "medium" && (
+      {props.size === "medium" && (
           <img
             style={{
               borderRadius: "50%",
